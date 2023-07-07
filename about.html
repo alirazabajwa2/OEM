@@ -1,0 +1,331 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>OEM Alloy Wheels</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link rel="icon" href="./images/favicon.ico">
+  <link href="main.css" rel="stylesheet">
+</head>
+<body>
+<!-- Topbar -->
+	
+<!-- Close -->
+<!-- Nav Start -->
+<nav
+  class="flex-no-wrap relative flex w-full items-center justify-between bg-[#FBFBFB] py-2 shadow-md shadow-black/5 dark:bg-neutral-600 dark:shadow-black/10 lg:flex-wrap lg:justify-start lg:py-4"
+  data-te-navbar-ref>
+  <div class="flex w-full flex-wrap items-center justify-between px-3">
+<!-- Hamburger button for mobile view -->
+<button id="hamburgerButton"
+  class="block border-0 bg-transparent px-2 text-neutral-500 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden"
+  type="button"
+  data-te-collapse-init
+  data-te-target="#navbarSupportedContent1"
+  aria-controls="navbarSupportedContent1"
+  aria-expanded="false"
+  aria-label="Toggle navigation">
+  <!-- Hamburger icon -->
+  <span id="hamburgerIcon" class="w-7">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-7 w-7">
+      <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+    </svg>
+  </span>
+  <!-- Cross icon -->
+  <span id="crossIcon" class="w-7 hidden">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-7 w-7">
+      <path fill-rule="evenodd" d="M17.78 6.22a.75.75 0 00-1.06 0L12 10.94 7.28 6.22a.75.75 0 10-1.06 1.06L10.94 12l-4.72 4.72a.75.75 0 101.06 1.06L12 13.06l4.72 4.72a.75.75 0 101.06-1.06L13.06 12l4.72-4.72a.75.75 0 000-1.06z" clip-rule="evenodd" />
+    </svg>
+  </span>
+</button>
+    <!-- Collapsible navigation container -->
+    <div
+      class="!visible hidden mx-auto basis-[100%] items-center lg:!flex lg:basis-auto"
+      id="navbarSupportedContent1"
+      data-te-collapse-item>
+		      <!-- Left navigation links -->
+      <ul
+        class="list-style-none mr-auto flex flex-col pl-0 lg:flex-row"
+        data-te-navbar-nav-ref>
+        <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+          <a class="text-black font-normal transition duration-200 hover:text-[#0F64A2] hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-zinc-400"
+            href="./index.html" data-te-nav-link-ref>Home</a>
+        </li>
+        <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+          <a class="text-black font-normal transition duration-200 hover:text-[#0F64A2] hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+            href="#" data-te-nav-link-ref>Shop Now</a>
+        </li>
+      </ul>
+      <a class="lg:block md:block hidden mb-4 ml-2 mr-5 mt-3 flex items-center lg:mb-0 lg:mt-0" href="./index.html">
+  <img src="./images/Logo.png" alt="OEM Logo" class="w-[160px] h-[41px]">
+</a>
+      <!-- Right navigation links -->
+      <ul
+        class="list-style-none mr-auto flex flex-col pl-0 lg:flex-row"
+        data-te-navbar-nav-ref>
+        <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+          <a class="text-black font-normal transition duration-200 hover:text-[#0F64A2] hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-zinc-400"
+            href="#" data-te-nav-link-ref>Contact</a>
+        </li>
+        <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+          <a class="text-black font-normal transition duration-200 hover:text-[#0F64A2] hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+            href="#" data-te-nav-link-ref>About Us</a>
+        </li>
+      </ul>
+    </div>
+	  <div class="visible sm:visible md:hidden lg:hidden relative flex items-center">
+		  <a href="#"><img src="./images/Logo.png" alt="OEM Logo" class="w-[138px] h-[35px]"></a>
+	  </div>
+  </div>
+</nav>
+<!-- Nav Close-->
+<!-- About -->
+<div class="container-fluid mx-auto">
+  <section class="background-radial-gradient lg:text-left">
+    <div class="relative overflow-hidden bg-cover bg-no-repeat bg-[50%] w-full bg-[url('./images/about-hd.png')] h-[600px] sm:h-[600px] md:h-[500px] lg:h-[500px]">
+      <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.75)] bg-fixed">
+        <div class="flex h-full items-center justify-center">
+          <div class="text-white pr-[10%] pl-[10%]">
+            <h3 class="mb-12 text-3xl font-bold text-left leading-tight tracking-tight md:text-3xl xl:text-4xl">
+              <span class="border-b border-white-400 border-b-2">WHO WE ARE</span>
+            </h3>
+            <p class="text-md text-left">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus porta nunc, cursus gravida mauris pretium sed. Morbi dignissim urna in egestas rutrum. Curabitur lacinia velit nunc, id suscipit mi pulvinar nec. Aenean varius sem porttitor nisi condimentum, finibus hendrerit mi convallis. Maecenas ornare arcu eros, in euismod magna rhoncus ut. Phasellus commodo eros eget sodales placerat. Ut scelerisque tincidunt maximus. Quisque fringilla tortor augue. In sollicitudin porttitor ante sit amet accumsan. Maecenas malesuada nibh nibh, eget porta diam sollicitudin et. Aenean et magna ultrices, porta velit eu, ultrices dolor. Curabitur vel lacus nec nisi pharetra gravida in sed nisi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- Close -->
+<!-- Why Choose Us -->
+<div class="container mx-auto pt-[80px] pb-[80px] pr-[8px] pl-[8px] max-w-[70%]">
+	<div class="flex h-full items-center justify-center">
+          <div class="text-white md:py-0 md:px-12">
+            <h3 class="mb-2 text-3xl font-bold text-center leading-tight tracking-tight md:text-3xl xl:text-4xl text-[#000]">
+              WHY CHOOSE US
+            </h3>
+			  <img src="./images/Rectangle.png" alt="Image description" class="w-[80%] h-[3px] mx-auto object-cover">
+          </div>
+    </div>
+	<div class="lg:flex sm:block md:flex h-full items-center justify-center pt-[30px]">
+		<div class="w-33">
+			<div class="icon1 ic pb-[30px]">
+				<h4 class="font-bold">Customer Service</h4>
+				<p class="text-[14px] text-[#868282]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			</div>
+			<div class="icon2 ic">
+				<h4 class="font-bold">Customer Service</h4>
+				<p class="text-[14px] text-[#868282]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			</div>
+		</div>
+		<div class="w-33">
+			<div class="">
+				<img src="./images/1.png" alt="Image description" class="w-[100%] h-[100%] mx-auto object-cover">
+			</div>
+		</div>
+		<div class="sm:text-left md:text-right w-33 lg:text-right">
+			<div class="icon3 ic pb-[30px]">
+				<h4 class="font-bold">Customer Service</h4>
+				<p class="text-[14px] text-[#868282]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			</div>
+			<div class="icon4 ic">
+				<h4 class="font-bold">Customer Service</h4>
+				<p class="text-[14px] text-[#868282]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Close -->
+<!--Offer Section-->
+	<section class="lg:flex sm:block md:flex items-center bg-[url('./images/slider.png')]">
+        <div class="w-full sm:w-full md:w-1/2 lg:w-1/2 flex items-center pl-[10%] pr-[10%] pt-[5%] pb-[5%] h-[500px] sm:h-[500px] md:h-[475px] lg:h-[475px]">
+			<div>
+            <h2 class="mb-[50px] text-3xl font-semibold leading-tight text-white w-[100%] sm:w-[100%] md:w-[70%] lg:w-[70%]">Now Offering 100% Genunine Mercedes Wheels & Tyres`</h2>
+			<ul>
+               <li><a class="main-btn bg-[#0F64A2]" href="#">BUY MURCEDES WHEELS</a></li>
+            </ul>
+        </div>
+		</div>
+		<div class="tt w-full sm:w-full md:w-1/2 lg:w-1/2 bg-[url('./images/mbg.png')] flex items-center pl-[10%] pr-[10%] pt-[5%] pb-[5%] h-[500px] sm:h-[500px] md:h-[500px] lg:h-[500px]">
+			<div>
+            <h2 class="mb-5 text-3xl font-semibold leading-tight text-white w-[100%] sm:w-[100%] md:w-[70%] lg:w-[70%]">Permanent price reduction!</h2>
+            <p class="mb-6 text-white text-[14px] w-[70%]">Ready for Winter. You are already thinking about buying new winter complete wheels for your Mercedes-Benz or smart Read more...</p>
+			<h2 class="mb-5 text-3xl font-semibold leading-tight text-white">30% Off</h2>
+			</div>
+		</div>
+    </section>
+	<div class="spacer my-16"></div>
+<!-- Close -->
+<!-- Promo Section-->
+	<section class="lg:flex sm:block md:flex items-center bg-[#f2f3f3] pt-[5%] sm:pt-[5%] md:pt-[0] lg:pt-[1%] pb-[5%] sm:pb-[5%] md:pb-[0] lg:pb-[1%]">
+		<div class="lg:w-[50%] sm:w-[100%] md:w-[50%] block items-center pl-[5%] pr-[5%] lg:pr-[1%] md:pr-[1%] sm:pr[5%] pt-[5%] pb-[2%] sm:pb-[2%] md:pb-[5%] lg:pb-[5%]">
+			<div class="text-center bg-[url('./images/image-2.png')] bg-cover flex items-center h-[250px]">
+				<div class="w-[70%] mx-auto">
+            <h2 class="mb-[0] text-3xl font-semibold leading-tight text-white">100% GUARANTEE!</h2>
+			<p class="mb-[0] text-white text-center text-[15px]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo.</p>
+				</div>
+        </div>
+		</div>
+		<div class="lg:w-[50%] sm:w-[100%] md:w-[50%] block items-center pl-[5%] lg:pl-[1%] md:pl-[1%] sm:pl-[5%] pr-[5%] pt-[2%] sm:pt-[2%] md:pt-[5%] lg:pt-[5%] pb-[5%]">
+			<div class="text-center bg-[url('./images/image-3.png')] bg-cover flex items-center h-[250px]">
+				<div class="w-[70%] mx-auto">
+            <h2 class="mb-[0] text-3xl font-semibold leading-tight text-white">FIND THE RIGHT TYRES</h2>
+			<p class="mb-[0] text-white text-center text-[15px]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo.</p>
+				</div>
+        </div>
+		</div>
+	</section>
+<!-- Close -->
+<!-- Partners -->
+	<div class="container mx-auto pt-[60px] pb-[60px] pr-[8px] pl-[8px] w-[100%] sm:w-[100%] md:w-[85%] lg:w-[85%]">
+		<div class="flex items-center justify-center">
+          <div class="text-white md:py-0 md:px-12">
+            <h3 class="mb-2 text-3xl font-bold text-center leading-tight tracking-tight md:text-3xl xl:text-4xl text-[#000]">
+              OFFICIAL SHIPPING PARTNERS</h3>
+			  <img src="./images/Rectangle.png" alt="line" class="w-[80%] h-[3px] mx-auto object-cover">
+          </div>
+    	</div>
+		<div class="partners pt-[4%]">
+			<div class="grid grid-cols-2 lg:grid-cols-6 md:grid-cols-3 sm:grid-cols-2 items-center">
+			  <img src="./images/8.svg" alt="Image 1" class="w-full">
+			  <img src="./images/7.svg" alt="Image 2" class="w-full">
+			  <img src="./images/9.svg" alt="Image 3" class="w-full">
+			  <img src="./images/8.svg" alt="Image 4" class="w-full">
+			  <img src="./images/7.svg" alt="Image 5" class="w-full">
+			  <img src="./images/9.svg" alt="Image 6" class="w-full">
+			</div>
+		</div>
+	</div>
+<!-- Close -->
+<!--Footer -->
+	<!-- Footer container -->
+<footer
+  class="text-center text-white bg-[url('./images/ft-bg.png')] bg-cover lg:text-left">
+  <div class="mx-[10%] py-[6%] md:text-left">
+    <div class="grid-1 grid gap-20 md:grid-cols-2 lg:grid-cols-3">
+
+      <div class="text-left">
+         <img src="./images/Logo-ft.png" alt="line" class="w-[192px] h-[49px] ml-[0] mb-[20px] mx-auto object-cover">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the....
+        </p>
+		 <div class="flex mt-[25px]">
+			 <a href=""><img src="./images/tw.png" alt="twitter" class="w-[36px] h-[36px] mr-[10px] mb-[5px]"></a>
+			 <a href=""><img src="./images/fb.png" alt="facebook" class="w-[36px] h-[36px] mr-[10px] mb-[5px]"></a>
+			 <a href=""><img src="./images/pi.png" alt="pinterest" class="w-[36px] h-[36px] mr-[10px] mb-[5px]"></a>
+			 <a href=""><img src="./images/in.png" alt="instagram" class="w-[36px] h-[36px] mr-[10px] mb-[5px]"></a>
+			 <a href=""><img src="./images/li.png" alt="linkedin" class="w-[36px] h-[36px] mr-[10px] mb-[5px]"></a>
+		  </div>
+      </div>
+      <!-- Useful links section -->
+      <div class="text-left">
+        <h6
+          class="mb-4 flex text-[22px] uppercase md:justify-start">
+          Product Categories
+        </h6>
+        <p class="mb-[10px]"><a href="#!" class="text-white">15 Inch</a></p>
+        <p class="mb-[10px]"><a href="#!" class="text-white">16 Inch</a></p>
+        <p class="mb-[10px]"><a href="#!" class="text-white">17 Inch</a></p>
+        <p class="mb-[10px]"><a href="#!" class="text-white">18 Inch</a></p>
+		<p class="mb-[10px]"><a href="#!" class="text-white">Tyre & Wheel Packages</a></p>
+        <p class="mb-[10px]"><a href="#!" class="text-white">TPMS</a></p>
+        <p class="mb-[10px]"><a href="#!" class="text-white">19 Inch</a></p>
+        <p class="mb-[10px]"><a href="#!" class="text-white">20 Inch</a></p>
+      </div>
+      <!-- Contact section -->
+      <div class="text-left">
+        <h6
+          class="mb-4 flex text-[22px] uppercase md:justify-start">
+          OME Alloy Wheels
+        </h6>
+		  <p><a href="#">Get the best High quality Oem Alloy wheels</a></p>
+		  <p><a href="#">Hundreds of alloy wheels in stock!</a></p>
+		  <p><a href="#">Pre orders available</a></p>
+        <p class="mb-4 pt-[20px] items-center md:justify-start" style="display: -webkit-inline-box;">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="mr-3 h-5 w-5">
+            <path
+              d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
+            <path
+              d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+          </svg>
+          The Woodlands Workshops Coedcae, LanePontyclunCF729DWSouth Wales
+        </p>
+<!--
+        <p class="mb-4 flex items-center md:justify-start">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="mr-3 h-5 w-5">
+            <path
+              d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
+            <path
+              d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
+          </svg>
+          info@oemalloywheels.com
+        </p>
+-->
+        <p class="mb-4 flex items-center md:justify-start">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="mr-3 h-5 w-5">
+            <path
+              fill-rule="evenodd"
+              d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
+              clip-rule="evenodd" />
+          </svg>
+          (510) 500-9533
+        </p>
+        <p>SSL 100% Secure Transactions:</p>
+		  <img src="./images/payment.png" alt="line" class="w-[212px] h-[24px] mt-[10px]">
+      </div>
+    </div>
+  </div>
+
+  <!--Copyright section-->
+  <div class="bg-[#0F64A2] p-4 text-[14px] text-center">
+    <span>© 2023 Copyright:</span>
+    <a class="text-white" href="./index.html" >OEM Alloy Wheels</a>
+  </div>
+</footer>
+<!-- Close -->
+	
+	
+	
+<!-- Scripts -->
+	<script>
+	const hamburgerButton = document.querySelector('[data-te-collapse-init]');
+const navbarMenu = document.querySelector('[data-te-collapse-item]');
+const hamburgerIcon = document.querySelector('.hamburger-icon');
+
+hamburgerButton.addEventListener('click', () => {
+  navbarMenu.classList.toggle('hidden');
+  hamburgerIcon.classList.toggle('open');
+});
+	</script>
+	<script>
+	// Toggle function to switch between hamburger and cross icons
+function toggleIcons() {
+  const hamburgerIcon = document.getElementById('hamburgerIcon');
+  const crossIcon = document.getElementById('crossIcon');
+
+  hamburgerIcon.classList.toggle('hidden');
+  crossIcon.classList.toggle('hidden');
+}
+
+// Add event listener to the hamburger button
+const hamburgerButton = document.getElementById('hamburgerButton');
+hamburgerButton.addEventListener('click', toggleIcons);
+	</script>
+</body>
+</html>
